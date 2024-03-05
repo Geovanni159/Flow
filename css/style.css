@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "figtree";
+}
+
+.header {
+  background-color: #022c22;
+  height: 96px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  margin-left: 112px;
+  gap: 32px;
+}
+
+header ul li p {
+  color: #ffffff;
+}
+
+#get-in-touch {
+  position: absolute;
+  right: 112px;
+  padding: 12px 20px;
+  background-color: #022c22;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+/*Main*/
+
+main {
+  background-color: #022c22;
+  height: 900px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  position: relative;
+}
+
+.container {
+  width: 592px;
+  height: 430px;
+}
+
+.container-logo {
+  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.container-logo img {
+  width: 127px;
+}
+
+.container-titul{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+.container h1 {
+  color: #ffffff;
+  font-size: 76px;
+  text-align:center;
+  
+}
+
+.container p{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.container-texto{
+    margin-bottom: 40px;
+}
+
+.container-buttons button{
+    padding: 12px 20px;
+    background-color: #022c22;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 18px;
+    
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#See-our-solutions{
+    background-color: #bef254;
+    border: none;
+    color: #022c22;
+}
+
+/*Imagesld*/
+
+#image1{
+    position: absolute;
+    left: -24px;
+    width: 312px;
+    height: 394px;;
+}
+
+#image2{
+    position: absolute;
+    top: 86px;
+    right: 0;
+}
+
+#image3{
+    position: absolute;
+    right: 64px;
+    bottom: 0;
+}
+
+#image4{
+    position: absolute;
+    left: 222px;
+    bottom: 0;
+}
+
+/* hover*/
+
+#get-in-touch:hover{
+    background-color: #bef254;
+    border: 1px solid #bef254;
+    color: #022c22;
+    transition: 0.5s;
+}
+
+#get-in-touch2:hover{
+    background-color: #bef254;
+    border: 1px solid #bef254;
+    color: #022c22;
+    transition: 0.5s;
+}
+
+#See-our-solutions:hover{
+    background-color: #022c22;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: 0.5s;
+}
