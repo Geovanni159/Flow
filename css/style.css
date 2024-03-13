@@ -58,7 +58,6 @@ main {
 }
 
 .container-logo {
-  
   display: flex;
   justify-content: center;
   margin-bottom: 24px;
@@ -68,101 +67,218 @@ main {
   width: 127px;
 }
 
-.container-titul{
-    
-    display: flex;
-    justify-content: center;
-    margin-bottom: 32px;
-  }
+.container-titul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
 
 .container h1 {
   color: #ffffff;
   font-size: 76px;
-  text-align:center;
-  
+  text-align: center;
 }
 
-.container p{
-    color: #ffffff;
-    font-size: 24px;
-    text-align: center;
-    
+.container p {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
 }
 
-.container-texto{
-    margin-bottom: 40px;
+.container-texto {
+  margin-bottom: 40px;
 }
 
-.container-buttons button{
-    padding: 12px 20px;
-    background-color: #022c22;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    border-radius: 30px;
-    font-size: 18px;
-    
+.container-buttons button {
+  padding: 12px 20px;
+  background-color: #022c22;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 18px;
 }
 
-.container-buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+.container-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
-#See-our-solutions{
-    background-color: #bef254;
-    border: none;
-    color: #022c22;
+#See-our-solutions {
+  background-color: #bef254;
+  border: none;
+  color: #022c22;
 }
 
 /*Imagesld*/
 
-#image1{
-    position: absolute;
-    left: -24px;
-    width: 312px;
-    height: 394px;;
+#image1 {
+  position: absolute;
+  left: -24px;
+  width: 312px;
+  height: 394px;
 }
 
-#image2{
-    position: absolute;
-    top: 86px;
-    right: 0;
+#image2 {
+  position: absolute;
+  top: 86px;
+  right: 0;
 }
 
-#image3{
-    position: absolute;
-    right: 64px;
-    bottom: 0;
+#image3 {
+  position: absolute;
+  right: 64px;
+  bottom: 0;
 }
 
-#image4{
-    position: absolute;
-    left: 222px;
-    bottom: 0;
+#image4 {
+  position: absolute;
+  left: 222px;
+  bottom: 0;
 }
 
 /* hover*/
 
-#get-in-touch:hover{
-    background-color: #bef254;
-    border: 1px solid #bef254;
-    color: #022c22;
-    transition: 0.5s;
+#get-in-touch:hover {
+  background-color: #bef254;
+  border: 1px solid #bef254;
+  color: #022c22;
+  transition: 0.5s;
 }
 
-#get-in-touch2:hover{
-    background-color: #bef254;
-    border: 1px solid #bef254;
-    color: #022c22;
-    transition: 0.5s;
+#get-in-touch2:hover {
+  background-color: #bef254;
+  border: 1px solid #bef254;
+  color: #022c22;
+  transition: 0.5s;
 }
 
-#See-our-solutions:hover{
-    background-color: #022c22;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    border-radius: 30px;
-    transition: 0.5s;
+#See-our-solutions:hover {
+  background-color: #022c22;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.seg-container {
+  height: 432px;
+  background-color: #022c22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.seg-container h1 {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.titulo1 {
+  display: inline;
+}
+.partners {
+  display: flex;
+  gap: 8px;
+}
+.partner1 {
+  width: 419px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+.partner2 {
+  width: 419px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+.partner3 {
+  width: 419px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+.partner4 {
+  width: 419px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+/*SOLAR ENERGY*/
+
+.solarenergy {
+  height: 888px;
+  display: flex;
+  position: relative;
+}
+
+.solarenergy-container{
+  width: 1574px;
+  height: 631px;
+  margin: 104px auto;
+}
+.solarenergy-container p{
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.solarenergy-container h1{
+  margin-top: 32px;
+  font-size: 48px;
+  font-weight: 400;
+  color: #929C9A;
+}
+#evcharging{
+  margin-top: 88px;
+  font-size: 48px;
+  font-weight: 400;
+  color: #929C9A;
+}
+
+#solar{
+  color: black;
+}
+
+.barra{
+  width: 288px;
+  height: 2px;
+  border: 1px solid black;
+  margin-top: 16px;
+}
+
+#solarpanels{
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #929C9A;
+}
+
+#learn{
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin-top: 16px;
+}
+
+#imgg{
+  position: absolute;
+  right: 112px;
+  top: 104px;
 }
